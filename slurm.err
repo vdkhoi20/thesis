@@ -1,0 +1,28 @@
+[rank: 0] Seed set to 42
+`text_config_dict` is provided which will be used to initialize `CLIPTextConfig`. The value `text_config["id2label"]` will be overriden.
+`text_config_dict` is provided which will be used to initialize `CLIPTextConfig`. The value `text_config["bos_token_id"]` will be overriden.
+`text_config_dict` is provided which will be used to initialize `CLIPTextConfig`. The value `text_config["eos_token_id"]` will be overriden.
+/media/ltnghia02/anaconda3/envs/ZeroShotEdit/lib/python3.10/site-packages/diffusers/pipelines/stable_diffusion/pipeline_stable_diffusion.py:107: FutureWarning: The configuration file of this scheduler: DDIMScheduler {
+  "_class_name": "DDIMScheduler",
+  "_diffusers_version": "0.15.0",
+  "beta_end": 0.012,
+  "beta_schedule": "scaled_linear",
+  "beta_start": 0.00085,
+  "clip_sample": false,
+  "clip_sample_range": 1.0,
+  "dynamic_thresholding_ratio": 0.995,
+  "num_train_timesteps": 1000,
+  "prediction_type": "epsilon",
+  "sample_max_value": 1.0,
+  "set_alpha_to_one": false,
+  "steps_offset": 0,
+  "thresholding": false,
+  "trained_betas": null
+}
+ is outdated. `steps_offset` should be set to 1 instead of 0. Please make sure to update the config accordingly as leaving `steps_offset` might led to incorrect results in future versions. If you have downloaded this checkpoint from the Hugging Face Hub, it would be very nice if you could open a Pull request for the `scheduler/scheduler_config.json` file
+  deprecate("steps_offset!=1", "1.0.0", deprecation_message, standard_warn=False)
+INFO:     Started server process [427394]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+/var/spool/slurm/d/job21518/slurm_script: line 23: 427394 Killed                  uvicorn api_main:app --host 0.0.0.0 --port 8000

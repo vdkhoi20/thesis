@@ -1,0 +1,79 @@
+Fri Jul 19 04:59:35 2024       
++---------------------------------------------------------------------------------------+
+| NVIDIA-SMI 535.183.01             Driver Version: 535.183.01   CUDA Version: 12.2     |
+|-----------------------------------------+----------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |         Memory-Usage | GPU-Util  Compute M. |
+|                                         |                      |               MIG M. |
+|=========================================+======================+======================|
+|   0  NVIDIA A100-PCIE-40GB          On  | 00000000:63:00.0 Off |                    0 |
+| N/A   35C    P0              36W / 250W |      0MiB / 40960MiB |      0%      Default |
+|                                         |                      |             Disabled |
++-----------------------------------------+----------------------+----------------------+
+                                                                                         
++---------------------------------------------------------------------------------------+
+| Processes:                                                                            |
+|  GPU   GI   CI        PID   Type   Process name                            GPU Memory |
+|        ID   ID                                                             Usage      |
+|=======================================================================================|
+|  No running processes found                                                           |
++---------------------------------------------------------------------------------------+
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+    inet6 ::1/128 scope host 
+       valid_lft forever preferred_lft forever
+2: eno1: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc mq state UP group default qlen 1000
+    link/ether b4:7a:f1:37:26:fc brd ff:ff:ff:ff:ff:ff
+    altname enp2s0f0
+    inet 172.29.64.75/24 brd 172.29.64.255 scope global eno1
+       valid_lft forever preferred_lft forever
+    inet6 fe80::b67a:f1ff:fe37:26fc/64 scope link 
+       valid_lft forever preferred_lft forever
+3: eno2: <NO-CARRIER,BROADCAST,MULTICAST,UP> mtu 1500 qdisc mq state DOWN group default qlen 1000
+    link/ether b4:7a:f1:37:26:fd brd ff:ff:ff:ff:ff:ff
+    altname enp2s0f1
+4: eno3: <NO-CARRIER,BROADCAST,MULTICAST,UP> mtu 1500 qdisc mq state DOWN group default qlen 1000
+    link/ether b4:7a:f1:37:26:fe brd ff:ff:ff:ff:ff:ff
+    altname enp2s0f2
+5: eno4: <NO-CARRIER,BROADCAST,MULTICAST,UP> mtu 1500 qdisc mq state DOWN group default qlen 1000
+    link/ether b4:7a:f1:37:26:ff brd ff:ff:ff:ff:ff:ff
+    altname enp2s0f3
+6: eno5: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc mq state UP group default qlen 1000
+    link/ether b4:7a:f1:8c:86:a0 brd ff:ff:ff:ff:ff:ff
+    altname enp178s0f0
+    inet6 fe80::b67a:f1ff:fe8c:86a0/64 scope link 
+       valid_lft forever preferred_lft forever
+7: eno6: <NO-CARRIER,BROADCAST,MULTICAST,UP> mtu 1500 qdisc mq state DOWN group default qlen 1000
+    link/ether b4:7a:f1:8c:86:a2 brd ff:ff:ff:ff:ff:ff
+    altname enp178s0f1
+8: eno7: <NO-CARRIER,BROADCAST,MULTICAST,UP> mtu 1500 qdisc mq state DOWN group default qlen 1000
+    link/ether b4:7a:f1:8c:86:a4 brd ff:ff:ff:ff:ff:ff
+    altname enp178s0f2
+9: eno8: <NO-CARRIER,BROADCAST,MULTICAST,UP> mtu 1500 qdisc mq state DOWN group default qlen 1000
+    link/ether b4:7a:f1:8c:86:a6 brd ff:ff:ff:ff:ff:ff
+    altname enp178s0f3
+10: docker0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc noqueue state UP group default 
+    link/ether 02:42:90:92:84:1e brd ff:ff:ff:ff:ff:ff
+    inet 172.17.0.1/16 brd 172.17.255.255 scope global docker0
+       valid_lft forever preferred_lft forever
+    inet6 fe80::42:90ff:fe92:841e/64 scope link 
+       valid_lft forever preferred_lft forever
+12: vetha3156f3@if11: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc noqueue master docker0 state UP group default 
+    link/ether 7e:58:1c:09:8a:52 brd ff:ff:ff:ff:ff:ff link-netnsid 0
+    inet6 fe80::7c58:1cff:fe09:8a52/64 scope link 
+       valid_lft forever preferred_lft forever
+no change     /media/ltnghia02/anaconda3/condabin/conda
+no change     /media/ltnghia02/anaconda3/bin/conda
+no change     /media/ltnghia02/anaconda3/bin/conda-env
+no change     /media/ltnghia02/anaconda3/bin/activate
+no change     /media/ltnghia02/anaconda3/bin/deactivate
+no change     /media/ltnghia02/anaconda3/etc/profile.d/conda.sh
+no change     /media/ltnghia02/anaconda3/etc/fish/conf.d/conda.fish
+no change     /media/ltnghia02/anaconda3/shell/condabin/Conda.psm1
+no change     /media/ltnghia02/anaconda3/shell/condabin/conda-hook.ps1
+no change     /media/ltnghia02/anaconda3/lib/python3.11/site-packages/xontrib/conda.xsh
+no change     /media/ltnghia02/anaconda3/etc/profile.d/conda.csh
+no change     /home/ltnghia02/.bashrc
+No action taken.
